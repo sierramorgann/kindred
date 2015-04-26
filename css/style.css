@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black; 
+}
+
+input {
+	position: absolute;
+	top: 50%;
+	left: 45%;
+}
+
+button {}
+
+
+
