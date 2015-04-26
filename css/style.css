@@ -6,11 +6,32 @@ body {
 
 input {
 	position: absolute;
-	top: 50%;
-	left: 45%;
+	top: 300px;
+	left: 500px;
+	font-size: 24px;
+	-moz-border-radius: 2.5px;
+    -webkit-border-radius: 2.5px;
+    border-radius:3px;
+    text-decoration: none;
+    border:none;
+    outline: none;
 }
 
-button {}
+button {
+	position: absolute;
+	top: 301px;
+	left: 760px;
+	width: 38px;
+	font-size: 20px;
+	-moz-border-radius: 2.5px;
+    -webkit-border-radius: 2.5px;
+    border-radius:3px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    outline: none;
+}
 
 
 
