@@ -1,13 +1,29 @@
+@font-face {
+    font-family: 'gotham_extralightregular';
+    src: url('gothamx/gotham-xlight-webfont.eot');
+    src: url('gothamx/gotham-xlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gothamx/gotham-xlight-webfont.woff2') format('woff2'),
+         url('gothamx/gotham-xlight-webfont.woff') format('woff'),
+         url('gothamx/gotham-xlight-webfont.ttf') format('truetype'),
+         url('gothamx/gotham-xlight-webfont.svg#gotham_extralightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	margin: 0;
 	padding: 0; 
+	font-family: 'gotham_extralightregular';	
 }
 
 input {
+	font-family: 'gotham_extralightregular';
 	position: absolute;
-	top: 300px;
-	left: 500px;
-	font-size: 24px;
+	top: 295px;
+	left: 450px;
+	font-size: 18px;
+	height: 35px;
+	width: 300px;
 	-moz-border-radius: 2.5px;
     -webkit-border-radius: 2.5px;
     border-radius:3px;
@@ -17,11 +33,13 @@ input {
 }
 
 button {
+	font-family: 'gotham_extralightregular';
 	position: absolute;
-	top: 301px;
+	top: 295px;
 	left: 760px;
 	width: 38px;
-	font-size: 20px;
+	height: 38px;
+	font-size: 18px;
 	-moz-border-radius: 2.5px;
     -webkit-border-radius: 2.5px;
     border-radius:3px;
