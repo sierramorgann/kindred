@@ -10,14 +10,15 @@
 </head>
 <body style="background-color: black;">	
 <img src="img/treez.jpg" width="100%">
-<input id="in" placeholder="Tell Us About Yourself" onclick=""></input>
+<input id="in" placeholder=" Tell Us About Yourself" onclick=""></input>
 <button id="Button">Go</button>
 <script type="text/javascript">
 document.getElementById("Button").onclick = function () {
 
 	var inputs = document.getElementById("in").value;
+	
         
-        if (inputs === "Carlton") {
+        if (inputs.includes('Carlton')) {
         	location.href = "output.html";
         } 
         else {
