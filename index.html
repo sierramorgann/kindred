@@ -13,5 +13,21 @@
 <img src="img/treez.jpg" width="100%">
 <input id="in" placeholder="Tell Us About Yourself" onclick=""></input>
 <button id="Button">Go</button>
+<script type="text/javascript">
+document.getElementById("Button").onclick = function () {
+	var inputs = document.getElementById("in").value.toUpperCase();
+	
+        
+        if (inputs.includes('CARLTON')) {
+        	location.href = "output.html";
+        } 
+        else if (inputs.includes('RANDY')) {
+        	location.href = "output2.html";
+        }
+        else {
+        	location.href = "index.html"
+        }
+    };
+</script>
 </body>
 </html>
