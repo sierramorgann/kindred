@@ -50,5 +50,33 @@ button {
     outline: none;
 }
 
+.item {
+	color: white;
+}
+
+#program {
+	position: absolute;
+	top: 200px;
+	left: 300px;
+}
+
+#modal {
+	display: none;
+	position: absolute;
+	background-color: white;
+	top: 50px;
+	left: 245px;
+	width: 100px;
+	height: 45px;
+	z-index: 100;
+	border-radius: 3px;
+	padding: 1%;
+}
+
+p {
+	margin: 0;
+}
+
+
 
 

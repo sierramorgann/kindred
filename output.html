@@ -9,6 +9,22 @@
     <script type="text/javascript" src="js/jQuery/jquery-2.1.1.js"></script>
 </head>
 <body>
-<img src="img/">	
+<img src="img/webmap.jpg" width="100%">
+<div id="modal">
+	<p>Fuck what ya heard</p>
+</div>
+<script>
+document.onmousemove = function(e) {
+  console.log(e)
+  var mod = new Object(document.getElementById("modal"));
+
+  if (event.pageY < 300 & event.pageX < 300) {
+  	$(mod).show();
+  }
+  else{
+    $(mod).hide();
+  }
+}	
+</script>
 </body>
 </html>	
