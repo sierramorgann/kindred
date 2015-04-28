@@ -15,6 +15,13 @@ body {
 	padding: 0; 
 	font-family: 'gotham_extralightregular';	
 }
+ 
+#logo {
+	position: absolute;
+	z-index: 101;
+	width: 50px;
+	margin: 2%;
+} 
 
 input {
 	font-family: 'gotham_extralightregular';
