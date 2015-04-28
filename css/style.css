@@ -19,8 +19,8 @@ body {
 #logo {
 	position: absolute;
 	z-index: 101;
-	width: 50px;
-	margin: 2%;
+	width: 150px;
+	margin: 1.5%;
 } 
 
 input {
