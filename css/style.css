@@ -1,12 +1,15 @@
-html {
-	background-color: rgba(192,223,217,1);
+.index {
+  background-color: rgba(192,223,217,1);
 }
-.row.no-gutters {
+.agencies {
+  background-color:rgba(255,255,255,1);
+}
+.people {
+  background:rgba(233,236,229,1);
+}
+.row. {
   margin-right: 0;
   margin-left: 0;
-}
-.row {
-	background-color: rgba(192,223,217,1);
 }
 .row.no-gutters > [class^="col-"],
 .row.no-gutters > [class*=" col-"] {
@@ -27,14 +30,23 @@ html {
 }
 .noShow {
 	display: none;
-	z-index: 100;
+	float: left;
 	position: fixed;
-	background-color: #F0FFFF;
-	width: 60%;
+	z-index: 999;
+	width: 50%;
 	height: auto;
+	background-color: #fff;
 	top: 25%;
-	left: 20%;
-	right: 20%; 
+	left: 25%;
+	right: 25%;
+	padding: 3%; 
+}
+.photo {
+	float: left;	
+}
+.about {
+	padding: 4%;
+	margin-left: 30%;
 }
 .exit {
 	z-index: 500000000;
@@ -59,13 +71,17 @@ html {
 	line-height: 50px;
 }
 .fil {
+	background:rgba(233,236,229,1);
 	position: fixed;
 	bottom: 0;
 	text-align: center;
+	font-size: 2em;
 	z-index: 9999;
-	width: 100%;
-	background-color: rgba(192,223,217,1);
+	width: 110%;
 	color:rgba(59,58,54,1);
+}
+.no {
+	background-color:rgba(233,236,229,1);
 }
 header{
   width:100%; 
@@ -102,13 +118,12 @@ header{
   z-index:10000000000000;
 }
 .menu {z-index:1000000; font-weight:bold; font-size:3em; width:100%; height: 100%; background:rgba(179,194,191,1);  position:fixed; text-align:center;}
-.menu ul {margin: 0; padding: 0 0 2% 0; list-style-type: none; list-style-image: none;}
-.menu li {display: block;   padding:50px 0 50px 0; border-bottom:rgba(255,255,255,0) 1px solid;}
-.menu li:hover {background:rgba(255,255,255,0.5);  border-bottom: rgba(255,255,255,0) 1px solid;}
-.menu ul li a {text-decoration:none;  margin: 0px; color:rgba(59,58,54,1);}
+.menu ul {margin: 0; padding: 0 0 2% 0; list-style-type: none; list-style-image: none; height: 100%; background:rgba(255,255,255,0.5);}
+.menu li {display: block;   padding:50px 0 50px 0;}
+.menu ul li a {text-decoration:none;  margin: 0px; color:rgba(255,255,255,1);}
 .menu ul li a:hover { width: 25%; color: rgba(59,58,54,1); text-decoration:none;}
-.menu a {text-decoration:none; color:rgba(255,255,255,1); font-family: sans-serif; font-weight: lighter;}
-.menu a:hover {text-decoration:none; color:rgba(255,255,255,1);}
+.menu a {text-decoration:none; color:rgba(255,255,255,1); font-family: sans-serif;}
+.menu a:hover {text-decoration: none; color:rgba(59,58,54,1);}
 
 .glyphicon-home{
   color:white; 
@@ -116,13 +131,11 @@ header{
   margin-top:5px; 
   margin:0 auto;
 }
-
 #tri{
 	position: absolute;
 	top: 0;
 	margin-left: -20%;
 }
-
 @media screen and (min-width : 2559px) {
 	.content {
 		font-size: 2.5em;
@@ -134,36 +147,32 @@ header{
 		font-size: 2em;
 	}
 }
-
 @media screen and (min-width : 760px) {
 	.fil {
 		font-size: 0.8em;
 	}
 }
-
 .content {
 	color: rgba(11,0,50,1);
 	text-align: center;
 	padding: 3%;
 	position: absolute;
-	right: 5%;
-	top: 30%;
-	width: 50%;
+	right: 1%;
+	top: 60%;
+	width: 40%;
+	margin: 20% 0;
 	color: #fff;
 	font-family: sans-serif;
 	font-weight: lighter;
 	letter-spacing: 2px;
-	background-color: rgba(255,255,255,0);
 	transform: translateX(100%);
     -webkit-transform: translateX(100%);
 	animation: slide-in 3s forwards;
     -webkit-animation: slide-in 3s forwards;
 }
-
 @keyframes slide-in {
     100% { transform: translateX(0%); }
 }
-
 @-webkit-keyframes slide-in {
     100% { -webkit-transform: translateX(0%); }
 }
@@ -180,12 +189,17 @@ header{
 	font-weight: bold;
 	color: #fff;
 	letter-spacing: 2px;
-	background-color: rgba(255,255,255,0);
 	transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
 	animation: slide-in 3s forwards;
     -webkit-animation: slide-in 3s forwards;	
 }
-
+#email {
+	margin: 25% 0;
+	text-align: center;
+}
+#nyc {
+	background-color: rgba(192,223,217,1);
+}
 
 
