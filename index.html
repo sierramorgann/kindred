@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link href="css/mixitup-master/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700|Ubuntu:400,300,500' rel='stylesheet' type='text/css'>
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
@@ -24,17 +25,28 @@
   </ul>
 </div> 
 <div id="nyc" class="row">
-<img class="col-md-6" src="img/nyc.jpg">
-	<div class="content col-md-6">Here is the Manifesto. It's a short manifesto which makes it sweet and to the point. There aren't many manifestos that can be this short and sweet.  
+<img class="col-md-6 nycHome" src="img/nyc.png" height="100%">
+	<div class="content col-md-4 col-sm-4 col-xs-4">Here is the Manifesto. It's a short manifesto which makes it sweet and to the point. There aren't many manifestos that can be this short and sweet.  
 	</div>
 	<div id="man">
-	UO NYC 
-	<br>
-	2016 
+  <div id="uo">	UO NYC</div> 
+	<div id="sixteen">2016</div> 
 	</div>
 </div>
 <script type="text/javascript" src="js/script.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
 <!-- <script src="main.js"></script> -->
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Lato:400,900,700:latin', 'Ubuntu:400,300,500:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
 </html>

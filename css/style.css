@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,700|Ubuntu:400,300,500);
+{font-family: 'Ubuntu', sans-serif;
+font-family: 'Lato', sans-serif;
+}
 .index {
   background-color: rgba(192,223,217,1);
 }
@@ -43,15 +47,12 @@
 	width:100%; 
     height:100%; 
     background:url(../img/overlay.png) repeat; 
-    text-align:center;
 }
-
 #wrapper { 
-    margin:0 auto; /*centers the div horizontally in all browsers (except IE)*/
+    margin:0 auto; 
     background:#fff; 
-    text-align:left; /*resets text alignment from body tag */
+    text-align:left; 
     border-top:none;
-    /*Let's add some CSS3 styles, these will degrade gracefully in older browser and IE*/
     border-radius:0 0 5px 5px;
     -moz-border-radius:0 0 5px 5px;
     -webkit-border-radius: 0 0 5px 5px; 
@@ -59,21 +60,39 @@
     -moz-box-shadow:0 0 5px #ccc;
     -webkit-box-shadow:0 0 5px #ccc;
 }
+.Nm {
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+.blurb {
+	margin-left: 30%;
+}
 .no{
   background:rgba(233,236,229,1);	
 }
 .photo {
 	float: left;
-	width: 15%;
-	margin: 10% 0 0 25%;	
+	width: 25%;
+	margin: 5% 0 0 5%;	
 }
 .about {
 	padding: 14%;
-	background-color: #fff;
-	width: 65%;
-	margin: 5% 0 0 18%;
+	background:rgba(233,236,229,1);
+	width: 100%;
+	height: 100%;	
 }
-
+.border {
+	background-color: rgba(179,194,191,0.5);
+	padding: 3%;
+	position: fixed;
+	top: 9%;
+	right: 15%; 
+	left: 15%;
+	width: 70%;
+	height: 75%;  
+}
 .name {
 	display: none;
 	position: absolute;
@@ -100,7 +119,6 @@
 	width: 110%;
 	color:rgba(59,58,54,1);
 }
-
 header{
   width:100%; 
   line-height:50px;
@@ -135,14 +153,13 @@ header{
   outline:none;
   z-index:10000000000000;
 }
-.menu {z-index:1000000; font-weight:bold; font-size:3em; width:100%; height: 100%; background:rgba(179,194,191,1);  position:fixed; text-align:center;}
+.menu {z-index:1000000; font-weight:900; font-size:3em; width:100%; height: 100%; background:rgba(179,194,191,1);  position:fixed; text-align:center;}
 .menu ul {margin: 0; padding: 0 0 2% 0; list-style-type: none; list-style-image: none; height: 100%; background:rgba(255,255,255,0.5);}
 .menu li {display: block;   padding:50px 0 50px 0;}
 .menu ul li a {text-decoration:none;  margin: 0px; color:rgba(255,255,255,1);}
 .menu ul li a:hover { width: 25%; color: rgba(59,58,54,1); text-decoration:none;}
-.menu a {text-decoration:none; color:rgba(255,255,255,1); font-family: sans-serif;}
+.menu a {text-decoration:none; color:rgba(255,255,255,1); font-family: 'Lato', sans-serif;}
 .menu a:hover {text-decoration: none; color:rgba(59,58,54,1);}
-
 .glyphicon-home{
   color:white; 
   font-size:1.5em; 
@@ -171,18 +188,15 @@ header{
 	}
 }
 .content {
-	color: rgba(11,0,50,1);
-	text-align: center;
-	padding: 3%;
+	color: rgba(255,255,255,1);
+	text-align: left;
+	padding: 4%;
 	position: absolute;
-	right: 1%;
-	top: 60%;
-	width: 40%;
-	margin: 20% 0;
-	color: #fff;
-	font-family: sans-serif;
-	font-weight: lighter;
+	margin: 16% 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
 	letter-spacing: 2px;
+	font-size: 1.25em;
 	transform: translateX(100%);
     -webkit-transform: translateX(100%);
 	animation: slide-in 3s forwards;
@@ -195,29 +209,41 @@ header{
     100% { -webkit-transform: translateX(0%); }
 }
 #man {
-	color: rgba(11,0,50,1);
-	text-align: center;
+	color: rgba(255,255,255,1);
+	text-align: right;
 	width: 50%;
 	padding: 3%;
 	position: absolute;
-	top: 30%;
-	left: 0;
-	font-size: 3em;
-	font-family: sans-serif;
-	font-weight: bold;
-	color: #fff;
-	letter-spacing: 2px;
+	left: 0; 
 	transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
 	animation: slide-in 3s forwards;
     -webkit-animation: slide-in 3s forwards;	
 }
+#uo {
+	font-size: 5.75em; 
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	margin-top: 35%;
+}
+#sixteen {
+	font-size: 9em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	line-height: 50%;
+}
 #email {
 	margin: 25% 0;
 	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
 }
 #nyc {
 	background-color: rgba(192,223,217,1);
 }
+.nycHome {
+	opacity: 0.6;
+}
+
+
 
 
