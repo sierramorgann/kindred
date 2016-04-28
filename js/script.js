@@ -33,13 +33,12 @@ $(document).ready(function() {
 		});
 	});
 
-	$('.noShow').click(function(e) {
-		e.preventDefault();
-		var image_href = $(this).attr("href");
+	$('.noShow').click(function() {
+		// var image_href = $(this).attr("href");
 		if ($('.noShow').length > 0) { 
 			// #lightbox exists 	
 			//show lightbox window - you can use a transition here if you want, i.e. .show('fast')
-			$('.noShow').show();
+			$('.noShow').show();	
 		}
 		else { 
 			//#lightbox does not exist 

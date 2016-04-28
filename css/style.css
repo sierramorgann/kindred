@@ -64,13 +64,21 @@ font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 .blurb {
 	margin-left: 30%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 0.8em;
+	font-size: 1em;
+}
+.blurb a {
+	color:rgba(59,58,54,1);
+	z-index: 999;
+}
+.blurb a:hover {
+	color: rgba(255,255,255,1);
+	text-decoration: none;
 }
 .no{
   background:rgba(233,236,229,1);	
