@@ -171,27 +171,12 @@ header{
 	top: 0;
 	margin-left: -20%;
 }
-@media screen and (min-width : 2559px) {
-	.content {
-		font-size: 2.5em;
-	}
-	.menu li {
-		padding: 120px 0 120px 0;
-	}
-	.fil {
-		font-size: 2em;
-	}
-}
-@media screen and (min-width : 760px) {
-	.fil {
-		font-size: 0.8em;
-	}
-}
 .content {
 	color: rgba(255,255,255,1);
 	text-align: left;
 	padding: 4%;
 	position: absolute;
+	top: 0;
 	margin: 16% 0;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 700;
@@ -215,6 +200,7 @@ header{
 	padding: 3%;
 	position: absolute;
 	left: 0; 
+	top: 0;
 	transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
 	animation: slide-in 3s forwards;
@@ -243,7 +229,54 @@ header{
 .nycHome {
 	opacity: 0.6;
 }
+/* Large desktops and laptops */
+@media (min-width: 1800px) {
+	.content {
+		font-size: 2em;
+	}
+}
 
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	#man {
+		margin-top: 0%;
+		width: 100%;
+		transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+		animation: slide-in 3s forwards;
+        -webkit-animation: slide-in 3s forwards;
+	}
+	.content {
+		width: 50%;
+		margin: 0% 0 0 5%;
+		transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+		animation: slide-in 3s forwards;
+        -webkit-animation: slide-in 3s forwards;
+	}
+	.menu li {
+		padding:16% 0 16% 0;
+	}
+	.menu ul {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
 
 
 
