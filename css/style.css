@@ -68,6 +68,9 @@ font-family: 'Lato', sans-serif;
 }
 .blurb {
 	margin-left: 30%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 0.8em;
 }
 .no{
   background:rgba(233,236,229,1);	
@@ -114,7 +117,7 @@ font-family: 'Lato', sans-serif;
 	position: fixed;
 	bottom: 0;
 	text-align: center;
-	font-size: 2em;
+	font-size: 0.8em;
 	z-index: 9999;
 	width: 110%;
 	color:rgba(59,58,54,1);
@@ -234,11 +237,34 @@ header{
 	.content {
 		font-size: 2em;
 	}
+	.fil {
+		font-size: 1.5em;
+	}
+	#email{
+		font-size: 1.5em;
+	}
+	.menu li {
+		padding:3% 0 3% 0;
+		font-size: 1.5em;
+	}
+	.menu ul {
+		padding: 0;
+		margin: 0;
+	}
+	.blurb {
+		font-size: 1.5em;
+	}
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+	.menu li {
+		padding:3% 0 3% 0;
+	}
+	.menu ul {
+		padding: 0;
+		margin: 0;
+	}
 }
 
 /* Portrait tablets and small desktops */
@@ -260,7 +286,7 @@ header{
         -webkit-animation: slide-in 3s forwards;
 	}
 	.menu li {
-		padding:16% 0 16% 0;
+		padding:3% 0 3% 0;
 	}
 	.menu ul {
 		padding: 0;
