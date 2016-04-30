@@ -15,15 +15,14 @@ font-family: 'Lato', sans-serif;
 .row. {
   margin-right: 0;
   margin-left: 0;
+  border: none;
 }
 .row.no-gutters > [class^="col-"],
 .row.no-gutters > [class*=" col-"] {
   padding-right: 0;
   padding-left: 0;
 }
-#Container .mix{
-	display: none;
-}
+
 #Container {
 	margin-bottom: 4.5%;
 }
